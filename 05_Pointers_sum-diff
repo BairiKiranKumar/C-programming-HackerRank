@@ -8,7 +8,7 @@ void update(int *a,int *b) {
         diff=*b-*a;
     } 
     *a=sum;
-    *b=diff; 
+    *b=abs(diff); 
 }
 
 int main() {
